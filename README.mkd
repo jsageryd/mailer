@@ -5,7 +5,7 @@ This is a simple PHP script to allow easy creation of arbitrary mail forms.
 
 The variables defined at the top of `scripts/mailer.php` may be overridden to create a custom form.
 The field `$formpage_name` must always be overridden to contain the name/URI of the form page.
-See `example.php` for a usage example.
+See `example.php` and `example2.php` for usage examples.
 
 Example of sent e-mail (screenshot2.png):
 
