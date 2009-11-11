@@ -1,0 +1,87 @@
+/* ----------------------------------------- */
+/* Mailer form */
+/* ----------------------------------------- */
+
+* {
+	font-family: "Trebuchet MS", "Century Gothic", Verdana, "MS Gothic", sans-serif;
+	font-size: small;
+	margin: 10px;
+	padding: 0;
+	color: #555;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1em; }
+
+form {
+	line-height: 1em;
+	font-size: 0.9em;
+	margin: 10px;
+	padding: 10px;
+	background-color: #F0F0F0;
+	border: 1px solid #ccc;
+	width: 340px;
+}
+
+form p {
+	margin: 10px;
+	padding: 0;
+}
+
+label {
+	padding: 2px;
+	margin: 0;
+}
+
+label.attention {
+	padding: 2px;
+	margin: 0;
+
+	font-style: italic;
+}
+
+input.text {
+	margin: 0px 3px 6px;
+	padding: 2px;
+	width: 300px;
+	border: 1px solid #ccc;
+
+	background-color: #fbfbfb;
+	color: inherit;
+}
+
+input.submit {
+	margin: 10px 3px 3px 3px;
+	width: 150px;
+	padding: 2px;
+	border: 1px solid #ccc;
+
+	background-color: #fbfbfb;
+	color: inherit;
+}
+
+textarea {
+	margin: 3px;
+	padding: 2px;
+	width: 300px;
+	border: 1px solid #ccc;
+
+	background-color: #fbfbfb;
+	color: inherit;
+}
+
+input.text.attention,
+input.attention,
+textarea.attention {
+	margin: 3px;
+	padding: 2px;
+	width: 300px;
+	border: 1px solid #ccc;
+
+	background-color: #e55;
+	color: #fff;
+}
