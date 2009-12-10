@@ -85,3 +85,7 @@ textarea.attention {
 	background-color: #e55;
 	color: #fff;
 }
+
+#message {
+	overflow: hidden;
+}

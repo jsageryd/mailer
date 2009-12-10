@@ -143,7 +143,7 @@ function field_area($field){
 	$desc = $field['field_desc'];
 	echo "	<p>\n";
 	echo "		<label for=\"$name\" class=\"".field_class($field)."\">$desc</label><br />\n";
-	echo "		<textarea style=\"overflow: hidden\" id=\"$name\" name=\"$name\" cols=\"30\" rows=\"8\" class=\"".field_class($field)."\">".field_value($name)."</textarea>\n";
+	echo "		<textarea id=\"$name\" name=\"$name\" cols=\"30\" rows=\"8\" class=\"".field_class($field)."\">".field_value($name)."</textarea>\n";
 	echo "	</p>\n";
 }
 
